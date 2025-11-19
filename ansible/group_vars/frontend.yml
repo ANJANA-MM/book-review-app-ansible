@@ -1,0 +1,5 @@
+frontend_repo_url: "https://github.com/ANJANA-MM/book-review-app-ansible.git"
+frontend_app_port: 3000
+backend_api_url: "http://4.205.233.128:3001"
+allowed_origins: "http://4.206.4.159:3000"
+

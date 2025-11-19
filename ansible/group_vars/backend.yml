@@ -1,0 +1,9 @@
+backend_repo_url: "https://github.com/ANJANA-MM/book-review-app-ansible.git"
+backend_app_port: 3001
+db_host: "anjibookreview-db.mysql.database.azure.com"
+db_user: "mysqladmin@anjibookreview-db"
+db_password: "DevSecureDBPassword123!"
+db_name: "bookreviews_dev"
+jwt_secret: "your_jwt_secret"
+allowed_origins: "http://4.206.4.159:3000"
+
