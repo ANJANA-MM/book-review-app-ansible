@@ -4,6 +4,6 @@ db_host: "anjibookreview-db.mysql.database.azure.com"
 db_user: "mysqladmin@anjibookreview-db"
 db_password: "DevSecureDBPassword123!"
 db_name: "bookreviews_dev"
-jwt_secret: "your_jwt_secret"
+jwt_secret: "MySuperSecureSecret123!"
 allowed_origins: "http://4.206.4.159:3000"
 

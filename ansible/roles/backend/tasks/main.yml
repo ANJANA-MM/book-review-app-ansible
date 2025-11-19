@@ -32,11 +32,13 @@
             DB_NAME: '{{ db_name }}',
             DB_DIALECT: 'mysql',
             JWT_SECRET: '{{ jwt_secret }}',
-            ALLOWED_ORIGINS: '{{ allowed_origins }}'
+            ALLOWED_ORIGINS: '{{ allowed_origins }}',
+            DB_SSL_MODE: 'require'
           }
         }]
       };
   notify: Restart backend with PM2
+
 
 - name: Ensure pip is installed
   apt:
